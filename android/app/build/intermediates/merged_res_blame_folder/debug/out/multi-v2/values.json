@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hafiz/Desktop/ISA_Project/NY_Times/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/hafiz/Documents/NY_Times_Articles/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/hafiz/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/res/values/values.xml",
@@ -59,22 +59,20 @@
                     }
                 },
                 {
-                    "source": "/Users/hafiz/Desktop/ISA_Project/NY_Times/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/hafiz/Documents/NY_Times_Articles/android/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "3",
+                        "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
+                        "startOffsets": "16",
+                        "endColumns": "45",
+                        "endOffsets": "57"
                     },
                     "to": {
-                        "startLines": "820",
+                        "startLines": "690",
                         "startColumns": "4",
-                        "startOffsets": "59569",
-                        "endLines": "823",
-                        "endColumns": "12",
-                        "endOffsets": "59782"
+                        "startOffsets": "44046",
+                        "endColumns": "45",
+                        "endOffsets": "44087"
                     }
                 },
                 {
@@ -94,6 +92,23 @@
                         "endLines": "113,114,535,568,569,570,571,572,584,591,592,593,596,629,630,689,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,728,733,736,737,738,739,740,741,781,782,783,784,786,787,788,789,790,791,792,793,795,796,797,798,807,811,2668,2671,2683,2687,3020,3023,3259,3306,3315,3322,3351,3354,3357,3457,3463,4437",
                         "endColumns": "62,62,50,47,48,47,48,48,40,42,42,41,42,53,47,72,122,95,88,107,116,119,119,101,102,110,106,102,110,168,167,116,109,114,112,155,107,112,90,110,168,97,126,124,94,106,79,75,72,86,70,70,77,79,85,83,71,81,83,76,86,84,78,74,72,88,76,77,72,77,10,10,12,12,10,10,12,12,25,34,10,10,10,10,10,12,12,10",
                         "endOffsets": "6979,7042,35049,37007,37056,37104,37153,37202,37818,38150,38193,38235,38374,40077,40125,44041,44491,44587,44676,44784,44901,45021,45141,45243,45346,45457,45564,45667,45778,45947,46115,46232,46342,46457,46570,46726,46834,46947,47038,47149,47318,47416,47543,47668,47763,47870,48377,48921,49301,49388,49459,49530,49608,49688,56747,56831,56903,56985,57122,57199,57286,57371,57450,57525,57598,57687,57835,57913,57986,58064,58754,59002,179982,180173,180693,180899,203573,203762,220440,223494,224032,224450,225970,226147,226326,234571,234936,297820"
+                    }
+                },
+                {
+                    "source": "/Users/hafiz/Documents/NY_Times_Articles/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "156,262",
+                        "endColumns": "63,68",
+                        "endOffsets": "215,326"
+                    },
+                    "to": {
+                        "startLines": "654,655",
+                        "startColumns": "4,4",
+                        "startOffsets": "41527,41591",
+                        "endColumns": "63,68",
+                        "endOffsets": "41586,41655"
                     }
                 },
                 {
@@ -168,23 +183,6 @@
                         "startOffsets": "40130",
                         "endColumns": "42",
                         "endOffsets": "40168"
-                    }
-                },
-                {
-                    "source": "/Users/hafiz/Desktop/ISA_Project/NY_Times/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "45",
-                        "endOffsets": "57"
-                    },
-                    "to": {
-                        "startLines": "690",
-                        "startColumns": "4",
-                        "startOffsets": "44046",
-                        "endColumns": "45",
-                        "endOffsets": "44087"
                     }
                 },
                 {
@@ -279,6 +277,25 @@
                     }
                 },
                 {
+                    "source": "/Users/hafiz/Documents/NY_Times_Articles/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "820",
+                        "startColumns": "4",
+                        "startOffsets": "59569",
+                        "endLines": "823",
+                        "endColumns": "12",
+                        "endOffsets": "59782"
+                    }
+                },
+                {
                     "source": "/Users/hafiz/.gradle/caches/transforms-3/974b7eb2566eaa5ff6cad3a657787855/transformed/lifecycle-viewmodel-2.3.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -293,23 +310,6 @@
                         "startOffsets": "40227",
                         "endColumns": "49",
                         "endOffsets": "40272"
-                    }
-                },
-                {
-                    "source": "/Users/hafiz/Desktop/ISA_Project/NY_Times/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
-                    "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "156,262",
-                        "endColumns": "63,68",
-                        "endOffsets": "215,326"
-                    },
-                    "to": {
-                        "startLines": "654,655",
-                        "startColumns": "4,4",
-                        "startOffsets": "41527,41591",
-                        "endColumns": "63,68",
-                        "endOffsets": "41586,41655"
                     }
                 },
                 {

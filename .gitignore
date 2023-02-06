@@ -69,7 +69,7 @@ buck-out
 .gradle
 local.properties
 *.iml
-
+android/app/build/
 !/android/README.md
 
 # Node
@@ -144,3 +144,8 @@ package-lock.json
 
 # Temporary files created by Metro to check the health of the file watcher
 .metro-health-check*
+*.bin
+android/app/build/intermediates
+android/app/build
+
+*.bin

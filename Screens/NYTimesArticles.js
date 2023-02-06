@@ -5,10 +5,9 @@ import Icon from 'react-native-vector-icons/Entypo';
 
   
 const NYTimesArticles = (props) => {
-  const [input, setInput] = useState("");
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
-  const {setOptions, navigate} = useNavigation();
+  const { navigate} = useNavigation();
 
 
   const getNYTimesArticles = async () => {
@@ -35,10 +34,10 @@ const NYTimesArticles = (props) => {
                 <Text style={styles.mainHeading} numberOfLines={2}>
                   {item.title}
                 </Text>
-                <Text style={styles.writerStyle}>
+                <Text style={styles.writerStyle} numberOfLines={1}>
                   {item.byline}
                 </Text>
-              <View style={styles.rowContainer}>
+              <View style={styles.rowContainerMain}>
                 <Text style={styles.headig}>
                   {item.source}
                 </Text>
@@ -129,9 +128,16 @@ const styles = StyleSheet.create({
     marginHorizontal: 24,
     marginTop: 16,
   },
+  rowContainerMain:{
+    flexDirection:'row',
+    justifyContent:'space-between',
+    
+  },
   rowContainer:{
     flexDirection:'row',
-    justifyContent:'space-between'
+    justifyContent:'space-between',
+    marginTop:8
+    
   },
   dateHeading:{
     fontSize:11,

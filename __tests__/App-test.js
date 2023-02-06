@@ -5,10 +5,12 @@
 import 'react-native';
 import React from 'react';
 import App from '../App';
-
-// Note: test renderer must be required after react-native.
+import NYTimesArticles from '../Screens/NYTimesArticles';
 import renderer from 'react-test-renderer';
 
-it('renders correctly', () => {
-  renderer.create(<App />);
+// import NYTimesArticlesDetails from '../Screens/NYTimesArticleDetail';
+// import { Header } from '../Components/Header';
+test('renders correctly', () => {
+  const tree = renderer.create(<NYTimesArticles />).toJSON();
+  expect(tree).toMatchSnapshot();
 });

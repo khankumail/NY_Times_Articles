@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hafiz/Desktop/ISA_Project/NY_Times/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
+            "outputFile": "/Users/hafiz/Documents/NY_Times_Articles/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "/Users/hafiz/.gradle/caches/transforms-3/f382564408e8806e991bcb7c984abfd6/transformed/core-1.5.0/res/values-hu/values-hu.xml",
